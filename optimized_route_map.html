@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b64557283bf31e59b421524e861b32de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b64557283bf31e59b421524e861b32de" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b64557283bf31e59b421524e861b32de = L.map(
+                "map_b64557283bf31e59b421524e861b32de",
+                {
+                    center: [9.9312, 76.2673],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9692124ebb4c8fe5c66658869ccd2fcf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9692124ebb4c8fe5c66658869ccd2fcf.addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var marker_b206cc9bd27fabf177e6cd2c81235ff4 = L.marker(
+                [9.9312, 76.2673],
+                {
+}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var icon_b7ecff2a14e2abab8241a46c86ad9811 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b206cc9bd27fabf177e6cd2c81235ff4.setIcon(icon_b7ecff2a14e2abab8241a46c86ad9811);
+        
+    
+        var popup_b53382849ef94539cfe534370b5b22fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dd012034f3659956c45aed99c56f9cd = $(`<div id="html_6dd012034f3659956c45aed99c56f9cd" style="width: 100.0%; height: 100.0%;">Kochi Weather Risk: 0.00 Piracy Risk: 0.00</div>`)[0];
+                popup_b53382849ef94539cfe534370b5b22fb.setContent(html_6dd012034f3659956c45aed99c56f9cd);
+            
+        
+
+        marker_b206cc9bd27fabf177e6cd2c81235ff4.bindPopup(popup_b53382849ef94539cfe534370b5b22fb)
+        ;
+
+        
+    
+    
+            var marker_7cd3a4008f8cf7213456ce3fa07da013 = L.marker(
+                [4.1755, 73.5093],
+                {
+}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var icon_97a60522f93ecb16b37d84918e8c5592 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7cd3a4008f8cf7213456ce3fa07da013.setIcon(icon_97a60522f93ecb16b37d84918e8c5592);
+        
+    
+        var popup_5a76ba7158266cdaf34cb72f9742901d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fad8ed13f2dae98676c0c1bbea11b4b = $(`<div id="html_5fad8ed13f2dae98676c0c1bbea11b4b" style="width: 100.0%; height: 100.0%;">Male Weather Risk: 0.65 Piracy Risk: 0.68</div>`)[0];
+                popup_5a76ba7158266cdaf34cb72f9742901d.setContent(html_5fad8ed13f2dae98676c0c1bbea11b4b);
+            
+        
+
+        marker_7cd3a4008f8cf7213456ce3fa07da013.bindPopup(popup_5a76ba7158266cdaf34cb72f9742901d)
+        ;
+
+        
+    
+    
+            var marker_990385d3251ad1669af565052859c2b4 = L.marker(
+                [-20.1619, 57.4989],
+                {
+}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var icon_4b53fcd54160c95cd0602fb7b6cb3573 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_990385d3251ad1669af565052859c2b4.setIcon(icon_4b53fcd54160c95cd0602fb7b6cb3573);
+        
+    
+        var popup_c695f8b7b3f1d6f6575c32ea6660a8c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62d7681260a3e81371ae2c8593f2f7ae = $(`<div id="html_62d7681260a3e81371ae2c8593f2f7ae" style="width: 100.0%; height: 100.0%;">Port Louis Weather Risk: 0.37 Piracy Risk: 0.06</div>`)[0];
+                popup_c695f8b7b3f1d6f6575c32ea6660a8c5.setContent(html_62d7681260a3e81371ae2c8593f2f7ae);
+            
+        
+
+        marker_990385d3251ad1669af565052859c2b4.bindPopup(popup_c695f8b7b3f1d6f6575c32ea6660a8c5)
+        ;
+
+        
+    
+    
+            var marker_95bf3243c7ea265fa826ba41a54a5ff9 = L.marker(
+                [13.0827, 80.2707],
+                {
+}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var icon_48e77174ecab9c8f5c55cf539035877c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_95bf3243c7ea265fa826ba41a54a5ff9.setIcon(icon_48e77174ecab9c8f5c55cf539035877c);
+        
+    
+        var popup_2d49f5cde1a4fe1e7c4f084dd8567989 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b45dd4b89239dd8a5c9c9cc94d5a3c42 = $(`<div id="html_b45dd4b89239dd8a5c9c9cc94d5a3c42" style="width: 100.0%; height: 100.0%;">Chennai Weather Risk: 0.12 Piracy Risk: 0.75</div>`)[0];
+                popup_2d49f5cde1a4fe1e7c4f084dd8567989.setContent(html_b45dd4b89239dd8a5c9c9cc94d5a3c42);
+            
+        
+
+        marker_95bf3243c7ea265fa826ba41a54a5ff9.bindPopup(popup_2d49f5cde1a4fe1e7c4f084dd8567989)
+        ;
+
+        
+    
+    
+            var marker_d836278e42f101bf256a938a448d4c03 = L.marker(
+                [-29.8587, 31.0218],
+                {
+}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var icon_f934ddf794167862b1c9dcd6accc7cdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d836278e42f101bf256a938a448d4c03.setIcon(icon_f934ddf794167862b1c9dcd6accc7cdf);
+        
+    
+        var popup_cd27616c1ca623548de4d9b6ef9c4a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_833744824eefa6a67935a9e9e8d9e0a8 = $(`<div id="html_833744824eefa6a67935a9e9e8d9e0a8" style="width: 100.0%; height: 100.0%;">Durban Weather Risk: 0.79 Piracy Risk: 0.80</div>`)[0];
+                popup_cd27616c1ca623548de4d9b6ef9c4a6d.setContent(html_833744824eefa6a67935a9e9e8d9e0a8);
+            
+        
+
+        marker_d836278e42f101bf256a938a448d4c03.bindPopup(popup_cd27616c1ca623548de4d9b6ef9c4a6d)
+        ;
+
+        
+    
+    
+            var marker_7d076b313a8a319569b77c562dea0663 = L.marker(
+                [6.9271, 79.8612],
+                {
+}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var icon_2d57a0e9c431434d75915a2d165a30d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7d076b313a8a319569b77c562dea0663.setIcon(icon_2d57a0e9c431434d75915a2d165a30d0);
+        
+    
+        var popup_302ae9e70df58729ed25002cb0911fa0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aed7d9938125b5cc447f252d7b08c687 = $(`<div id="html_aed7d9938125b5cc447f252d7b08c687" style="width: 100.0%; height: 100.0%;">Colombo Weather Risk: 0.33 Piracy Risk: 0.35</div>`)[0];
+                popup_302ae9e70df58729ed25002cb0911fa0.setContent(html_aed7d9938125b5cc447f252d7b08c687);
+            
+        
+
+        marker_7d076b313a8a319569b77c562dea0663.bindPopup(popup_302ae9e70df58729ed25002cb0911fa0)
+        ;
+
+        
+    
+    
+            var marker_fdcad6bff81a2b3bcc1548d32bf0bb6d = L.marker(
+                [23.588, 58.3829],
+                {
+}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+    
+            var icon_b14058ca4648459b64b265a5727ae323 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fdcad6bff81a2b3bcc1548d32bf0bb6d.setIcon(icon_b14058ca4648459b64b265a5727ae323);
+        
+    
+        var popup_1370724f449883aff5b305052f0b91f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfb9b0ebb9c8d5df44a89dae926a0c79 = $(`<div id="html_dfb9b0ebb9c8d5df44a89dae926a0c79" style="width: 100.0%; height: 100.0%;">Muscat Weather Risk: 0.02 Piracy Risk: 0.63</div>`)[0];
+                popup_1370724f449883aff5b305052f0b91f0.setContent(html_dfb9b0ebb9c8d5df44a89dae926a0c79);
+            
+        
+
+        marker_fdcad6bff81a2b3bcc1548d32bf0bb6d.bindPopup(popup_1370724f449883aff5b305052f0b91f0)
+        ;
+
+        
+    
+    
+            var poly_line_474a06b1e4bfb6a9e816e9d64b41613a = L.polyline(
+                [[9.9312, 76.2673], [4.1755, 73.5093], [-20.1619, 57.4989], [13.0827, 80.2707], [-29.8587, 31.0218], [6.9271, 79.8612], [23.588, 58.3829]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b64557283bf31e59b421524e861b32de);
+        
+</script>
+</html>
