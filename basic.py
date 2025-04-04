@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 import folium
 import webbrowser
 import os
-import numpy as np
+import numpy as np 
 import random
 from typing import List, Dict
 from dataclasses import dataclass
