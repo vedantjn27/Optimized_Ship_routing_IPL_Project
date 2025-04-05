@@ -442,7 +442,7 @@ def format_time(hours):
         return "Error"
     
 def main():
-    st.markdown('<h1 class="main-header">🚢 Maritime Route Optimizer</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🚢NavAIgator</h1>', unsafe_allow_html=True)
     
     # Initialize optimizer
     optimizer = MaritimeRouteOptimizer()
